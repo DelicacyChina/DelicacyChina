@@ -1,0 +1,53 @@
+.sliderh{width:100%;height:350px;clear:both;position:relative;overflow:hidden;margin-top:40px}
+#sliderh{width:auto;height:350px;overflow:hidden}
+#sliderh ul{display:block;margin:0;padding:0}
+#sliderh li{display:block;height:350px;overflow:hidden}
+#sliderh li{height:350px;overflow:hidden;display:block;float:left}
+#sliderh li h1{display:block;height:100%;width:100%}
+#sliderh li a{display:block;height:100%;width:100%;text-indent:-9999em}
+.sliderh .control{display:none}
+.msb{margin:auto;width:990px;padding:30px 0;overflow:hidden}
+.msb_list{width:1111px}
+.msb_list li{float:left;margin:0 23px 20px 0;width:230px;text-align:center}
+.msb_list li img{margin:auto}
+.msb_list a{color:#333;text-decoration:none}
+.msb_list span{color:#333;display:block;font-size:18px;overflow:hidden;padding:5px 0;text-overflow:ellipsis;white-space:nowrap}
+.msb_list a:hover span{color:#ff6767}
+.msb_list i{color:#ff6767;display:block}
+.msb_list li a.buy{border:1px solid #ff6767;border-radius:15px;color:#ff6767;display:block;font-size:12px;height:20px;line-height:20px;margin:10px auto 0;padding:0 10px;text-decoration:none;width:30px}
+.msb_list li a.buy:hover{background:#ff6767;color:#fff;text-decoration: none;}
+.msb p{font-size:18px;color:#333;padding:0 0 20px 0}
+.pin_list{padding:0;margin:0 0 15px 0}
+.pin_list li{padding:10px 0;border-bottom:1px solid #ddd;width:460px;float:left;height:225px;overflow:hidden}
+.pin_list li.clear{float:right}
+.pin_list div.u{height:40px}
+.pin_list div.u div{float:left;width:80%}
+.pin_list div.u img.imgLoad{background:#f2f2f2 url(http://static.meishichina.com/v6/img/loading-16-16.gif) no-repeat scroll center center;width:40px;height:40px;border-radius:50%;float:left;margin:0 10px 0 0}
+.pin_list div.u a.t{color:#111;display:block;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;float:left;max-width:590px}
+.pin_list div.u span{color:#666;font-size:10px;float:left;clear:both}
+.pin_list div.c{display:block;padding:5px 0 0 0}
+.pin_list div.c div.pp a{color:#666;font-size:14px;font-size:14px;max-height:45px;overflow:hidden}
+.pin_list div.c div.pp i{border:1px solid #ff6767;border-radius:3px;color:#ff6767;display:inline-block;font-size:12px;font-style:normal;line-height:140%;margin:0 5px 0 0;padding:0 3px;vertical-align:text-bottom}
+.pin_list div.c a.clear{position:relative;padding:10px 0 0;float:left}
+.pin_list div.c a.clear img{float:left;width:100px;height:100px;margin:0 10px 0 0}
+.pin_list div.c a.clear b{position:absolute;bottom:0;right:10px;font-size:12px;height:20px;width:20px;text-align:center;line-height:20px;color:#fff;background:#000;background:rgba(0,0,0,.5)}
+.pin_list div.c span{clear:both;float:left;padding:10px 0 0;font-size:12px;color:#666;line-height:100%}
+.pin_list div.f{float:left;margin:80px 0 0}
+.pin_list div.f a.f1 i{width:30px;height:30px;display:block;background:url(http://static.meishichina.com/v6/img/newrecipe/log_14.png) no-repeat -100px 5px}
+.pin_list div.f a.f1:hover i,.pin_list div.f a.on i{background-position:-2px 5px}
+.recipeArction{padding:15px 0}
+.recipeArction .collect_da{display:block;float:right;margin:0 0 5px 10px;width:300px}
+.recipeArction .collect_da li{float:left;width:60px}
+.collect_da li a{display:block;overflow:hidden;text-align:center;text-overflow:ellipsis;white-space:nowrap;color:#999;font-size:11px}
+.collect_da li a{text-decoration:none;color:#666}
+.collect_da li a i{width:30px;height:30px;display:block;margin:2px auto;background:transparent url(http://static.meishichina.com/v6/img/zhen/i.png?v=2) no-repeat;background:rgba(0,0,0,0) url(http://static.meishichina.com/v6/img/zhen/ix2.png?v=2) no-repeat scroll 0 0/auto 30px}
+.collect_da li.fav a i{background-position:0 0}
+.collect_da li.fav a.on i,.collect_da li.fav a:hover i{background-position:-30px 0}
+.collect_da li a.J_s1 i{background-position:-60px 0}
+.collect_da li a.J_s2 i{background-position:-90px 0}
+.collect_da li a.J_s3 i{background-position:-120px 0}
+.collect_da li a.J_s4 i{background-position:-150px 0}
+.collect_da li a.J_col i{background-position:-240px 0}
+.collect_da li.lik a i{background-position:-210px 0}
+.collect_da li.lik a.on i,.collect_da li.lik a:hover i{background-position:-180px 0}
+#bdshare{display:none}

@@ -1,0 +1,97 @@
+html body div .color_5b{color:#000}
+.mr_edit input,.mr_edit textarea{color:#ccc}
+select{display:none}
+#multi_step_status{color:#999;display:inline-block;margin:5px 0 0 5px;vertical-align:middle}
+#multi_step_status b{display:inline-block;min-width:15px;text-align:center}
+#multi_step_status b.s1{color:#333}
+#multi_step_status b.s2{color:#6b5}
+#multi_step_status b.s3{color:red}
+#multi_cover_status{color:#999;display:inline-block;margin:5px 0 0 5px;float:left; line-height: 24px;}
+#multi_cover_status b{display:inline-block;min-width:15px;text-align:center}
+#multi_cover_status b.s1{color:#333}
+#multi_cover_status b.s2{color:#6b5}
+#multi_cover_status b.s3{color:red}
+.J_uploadflash{float:left;overflow:hidden;display:inline-block;border:1px solid #ccc;border:1px solid #c9c890;border-radius:3px;background:#fcfce3;color:#333;font-size:14px;cursor:pointer;height:24px;line-height:24px;text-align:center;width:90px;position:relative;vertical-align:middle;margin:5px 0 0}
+.J_uploadflash .swfupload{opacity:0;height:24px;width:90px;top:0;left:0;position:absolute}
+#cover{clear:both;float:left;margin:10px 0;width:770px}
+#cover div{cursor:move;font-size:0;overflow:hidden;width:160px;height:160px;float:left;margin:10px 15px 10px 0;background:url(http://static.meishichina.com/v6/img/event/h_bg.jpg);text-align:center;position:relative}
+#cover div img{box-shadow:none;max-width:100%;max-height:100%;vertical-align:middle;display:inline-block}
+#cover div span{display:inline-block;font-size:0;height:100%;line-height:0;margin-left:-1px\9;overflow:hidden;vertical-align:middle;width:0}
+#cover div a.del{background:rgba(0,0,0,.8);color:#fff;cursor:pointer;font-size:12px;line-height:120%;padding:7px;position:absolute;right:0;top:0;display:none}
+span.tip{color:#999;font-size:12px}
+#cover div:first-child:after{content:"封面";background:rgba(255,0,0,.55);color:#fff;font-size:12px;left:0;position:absolute;top:0;line-height:120%;padding:7px;text-shadow:2px 2px 2px #333}
+.multiselect{width:17% !important;float:left;position:relative;z-index:100;margin:5px 2% 5px 0}
+.multiselect a.multi_txt{color:#999;font-size:14px;background:url(http://static.meishichina.com/v6/img/publick/btn_05.png) no-repeat right center;display:block;padding:0 21px 0 3px;overflow:hidden;border:#ccc solid 1px;height:26px;line-height:26px;text-overflow: ellipsis;
+    white-space: nowrap;}
+.multiselect_show{z-index:105}
+.multiselect a.multi_txt_show,.multiselect ul.ul_show{background-color:#fcfce3}
+.multiselect a.color_5b{color:#5b5b5b}
+.multiselect ul.ul_show{display:block}
+.multiselect a.multi_txt_show{position:relative;z-index:101;border:#c9c890 solid 1px;border-bottom:none}
+.multiselect a.multi_txt:hover{background-image:url(http://static.meishichina.com/v6/img/publick/btn_05.png);text-decoration:none}
+.multiselect ul{padding-top:10px;border:#c9c890 solid 1px;overflow:hidden;width:540px;position:absolute;top:26px;z-index:100;background:#fff;display:none;font-size:12px}
+.multiselect ul li{float:left;margin:0 5px 5px 0;width:80px;padding:0}
+.multiselect ul li a label input{vertical-align:middle;margin:0 5px 0 0;border:none}
+.multiselect ul li a label{display:block;color:#333}
+.multiselect ul li a{display:block;padding:2px 5px}
+.multiselect ul li a:hover{text-decoration:none;color:#5b5b5b}
+div.select_0 ul,div.select_3 ul{width:340px}
+div.select_1 ul li{width:54px}
+div.select_2 ul li{width:54px}
+div.select_4 ul li{width:90px}
+div.select_4 ul{width:580px}
+blockquote{margin:0;padding:0;text-indent:0}
+.ingredient blockquote.Left{float:left;width:46.5%;margin:0 30px 0 0}
+.ingredient blockquote.Right{float:left;width:46.5%;}
+.ingredient blockquote div{margin:5px 30px 10px 0;position:relative;font-size:0;border:1px solid #ccc}
+.ingredient blockquote div input{font-size:14px;margin:0;border:none;padding:2px 0;}
+.ingredient div input.zhuliao{width:54%;border-right:1px solid #ccc}
+.ingredient div input.yongliang{width:44%}
+.ingredient blockquote div .delete{background:url(http://static.meishichina.com/v6/img/mycenter/images/icon_08.png) no-repeat center -49px;position:absolute;right:-30px;top:-1px;width:28px;height:28px;display:none;border:1px solid #ccc}
+.ingredient blockquote div .delete:hover{ background-color: #fcfce3; border: 1px solid #c9c890;}
+
+.ingredient blockquote div:hover .delete{display:block}
+.ingredient{margin-bottom:-10px;overflow:hidden}
+.ingredient blockquote{margin-bottom:10px;position:relative;top:0;left:0}
+.multi_step{overflow:hidden;display:inline-block;margin:5px 0 0 0;border:1px solid #ccc;border:1px solid #c9c890;border-radius:3px;background:#fcfce3;color:#333;font-size:14px;cursor:pointer;height:24px;line-height:24px;text-align:center;width:70px;position:relative;vertical-align:middle}
+.multi_step .swfupload{opacity:0;height:24px;width:70px;top:0;left:0;position:absolute}
+
+
+
+
+.addicon{overflow:hidden;position:relative;top:0;left:0;z-index:70;background:url(http://static.meishichina.com/v6/img/mycenter/images/add_25.png) no-repeat center 40px;border:#ccc solid 1px;width:208px;height:156px;background-color:#f7f7f7;text-align:center;cursor:pointer}
+.addicon p{font-size:12px;color:#a1a1a1}
+.addicon p.p1{margin-top:65px;font-size:14px;margin-bottom:3px;color:#5b5b5b}
+.addicon input{width:60px;height:200px;position:absolute;top:0;left:0;z-index:90;}
+.addicon iframe{position:absolute;top:0;left:0;z-index:100;width:208px;height:104px;border:none;display:none}
+.addicon .div_file_img{position:absolute;top:0;left:0;z-index:80}
+.addicon .file_img{display:inline-block;max-height:100%;max-width:100%;min-height:100px;min-width:100px;vertical-align:middle}
+.addicon .div_file_img b{display:inline-block;font-size:0;font-weight:100;height:100%;line-height:0;overflow:hidden;vertical-align:middle;width:0}
+.addicon .div_file_img{background:url(http://static.meishichina.com/v6/img/loading-32-32.gif) no-repeat scroll center center #f2f2f2;width:100%;height:100%}
+.addicon .div_file_img span{color:#a1a1a1;display:block;padding:100px 0 0}
+.addicon .f_img{position:absolute;top:0;left:0;background:#fff;text-align:center;height:100%;width:100%;overflow:hidden}
+.addicon .f_img img{display:inline-block;max-height:100%;max-width:100%;min-height:100px;min-width:100px;vertical-align:middle}
+.addicon .f_img b{display:inline-block;font-size:0;font-weight:100;height:100%;line-height:0;overflow:hidden;vertical-align:middle;width:0}
+.addicon .error{background:url(http://static.meishichina.com/v6/img/uploadImg/error.jpg) no-repeat scroll center 0 #f2f2f2}
+.step a.add,.step a.delete,.step a.down,.step a.up{width:24px;height:24px;position:absolute;right:-30px;border:1px solid #ccc;background:url(http://static.meishichina.com/v6/img/mycenter/images/icon_08.png) no-repeat center 0}
+.step a.delete{top:-1px;background-position:center -51px}
+.step a.up{top:29px;background-position:center -15px;background-color:#ff6767}
+.step a.down{top:59px;background-position:center -33px}
+.step a.add{top:29px;background-position:center 4px;background-color:#ff6767}
+.step a.add:hover{background-color:#ff838b}
+.step a.delete:hover,.step a.down:hover,.step a.up:hover{background-color:#fcfce3;border:1px solid #c9c890}
+.step blockquote.cp_block{clear:both;position:relative;top:0;left:0;padding:10px 6% 10px 0;width:93%;}
+
+.step blockquote.cp_block .right{float:none; margin:0 0 0 220px;padding:10px 5px 10px 40px;border:1px solid #ccc;position: relative;}
+
+.step .textArea{width:100%;height:135px;margin:0;padding:0;border:none; resize:none;}
+.J_step_num{position:absolute;top:5px;left:-3px;display:block;overflow:hidden;width:50px;height:37px;color:#ccc;text-align:right;font-size:18px}
+#dragsort{clear:both}
+#save_tip{color:#6b5;padding:5px 0}
+.cover_complete,.step_complete{display:none}
+
+.eventids div{padding:0 0 10px 0;}
+.eventids p,.eventids p a{color:#ff6767}
+.mr_edit .eventids label{padding:0 0 5px 0}
+
+#SWFUpload_Console{margin:5px 0 0 135px !important;}

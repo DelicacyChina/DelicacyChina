@@ -1,0 +1,103 @@
+.ui_title{height:35px;border-bottom:1px solid #eeeeee;position:relative}
+.ui_title_wrap{line-height:30px;font-size:20px}
+.ui_title_wrap h1,.ui_title_wrap h2,.ui_title_wrap h3{float:left;font-weight:400;display:inline-block;font-size:20px;margin-right:20px;color:#666;padding-bottom:4px;outline:0;color:#333;max-width:100%;overflow:hidden;text-decoration:none;text-overflow:ellipsis;white-space:nowrap}
+.ui_title_wrap h1 a,.ui_title_wrap h2 a,.ui_title_wrap h3 a{color:#666}
+.ui_title_wrap h1.on,.ui_title_wrap h2.on,.ui_title_wrap h3.on{color:#ff6767;border-bottom:3px solid #ff6767}
+.ui_title_wrap h1.on a,.ui_title_wrap h2.on a,.ui_title_wrap h3.on a{color:#ff6767}
+.ui_title_wrap a.on{color:#ff6767}
+.ui_title_wrap a{text-decoration:none}
+.ui_title_wrap .right{float:right;margin:0 0 0 20px;font-size:16px}
+.ui_title_wrap span.right{color:#999}
+.ui_no_data{font-size:24px;padding:100px;padding-right:0;color:#999}
+.ui_no_data a,.ui_no_data a:hover{color:#6599ff;padding:5px}
+.ui-loading{height:44px;line-height:44px;overflow:hidden}
+.ui-loading a{display:block;border-radius:5px;text-align:center;font-size:18px;color:#ff6767;background-color:#f8f8f8;outline:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;-moz-transition:color .3s ease-in-out .3s,background-color .3s ease-in-out .3s;-o-transition:color .3s ease-in-out .3s,background-color .3s ease-in-out .3s;-ms-transition:color .3s ease-in-out .3s,background-color .3s ease-in-out .3s;transition:color .3s ease-in-out .3s,background-color .3s ease-in-out .3s}
+.ui-loading a:hover{background-color:#ff8d8d;color:#fff;text-decoration:none}
+.ui-loading a.on{cursor:default;background:url(http://static.meishichina.com/v6/img/loading-16-16.gif) no-repeat center center #f9f9f9;text-indent:-9999em}
+li.feed{display:none}
+.space_left{width:640px;float:left;overflow:hidden}
+.space_right{width:300px;float:right}
+.pin_list{clear:both;margin:10px 0 0 0;padding:0}
+.pin_list li{float:left;overflow:hidden;padding:10px 0;width:460px;height:225px}
+.space_left .pin_list li{width:100%;height:auto}
+.pin_list li.clear{float:right}
+.pin_list div.u{height:40px}
+.pin_list div.u div{float:left;width:80%}
+.pin_list div.u img.imgLoad{float:left;margin:0 10px 0 0;width:40px;height:40px;border-radius:50%;background:#f2f2f2 url(http://static.meishichina.com/v6/img/loading-16-16.gif) no-repeat scroll center center}
+.pin_list div.u a.t{float:left;display:block;overflow:hidden;max-width:590px;color:#111;text-overflow:ellipsis;white-space:nowrap;font-size:14px}
+.pin_list div.u span{float:left;clear:both;color:#666;font-size:10px}
+.pin_list div.c{display:block;padding:5px 0 0 50px}
+.pin_list div.c div.pp a{overflow:hidden;max-height:45px;color:#666;font-size:14px;font-size:14px}
+.pin_list div.c div.pp i{display:inline-block;margin:0 5px 0 0;padding:0 3px;border:1px solid #ff6767;border-radius:3px;color:#ff6767;vertical-align:text-bottom;font-style:normal;font-size:12px;line-height:140%}
+.pin_list div.c a.clear{position:relative;float:left;padding:10px 0 0}
+.pin_list div.c a.clear img{float:left;margin:0 10px 0 0;width:100px;height:100px}
+.pin_list div.c a.clear b{position:absolute;right:10px;bottom:0;width:20px;height:20px;background:#000;background:rgba(0,0,0,.5);color:#fff;text-align:center;font-size:12px;line-height:20px}
+.pin_list div.c div.num{float:left;clear:both;padding:10px 0 0;color:#666;font-size:12px;line-height:100%;height:15px}
+.pin_list div.c div.num span{display:none}
+.pin_list div.f{float:left;display:none;margin:40px 0 0 20px}
+.pin_list div.f a.f1 i{width:40px;height:40px;display:block;background:rgba(0,0,0,0) url(http://static.meishichina.com/v6/img/pai/bts.png) no-repeat scroll 0 0}
+.pin_list div.f a.f1:hover i,.pin_list div.f a.on i{background-position:0 -40px}
+a.r_pai-add{display:block;height:44px;line-height:44px;font-size:20px;text-align:center;color:#fff;text-decoration:none;background:#ff6767;border-radius:5px}
+.pai_box{position:relative;padding:20px 0 0 0}
+.pai_box a.pic{float:left;margin:0 20px 0 0}
+.pai_box>p{padding:0 0 10px 60px}
+.pai_box p.u{color:#999}
+.pai_box p.u a{color:#999}
+.pai_box p.u a.t{color:#6599ff}
+.pai_box a.img img{float:left;margin:0 10px 0 0;border-radius:50%;background-image:url(http://static.meishichina.com/v6/img/loading-16-16.gif)}
+.pai_box a.t{color:#6599ff;font-size:14px}
+.pai_box p.u span{float:right}
+.pai_box p.c{color:#666;font-size:16px}
+.pai_box p.c span.s1{display:inline-block;margin:0 5px 0 0;padding:0 4px;border-radius:3px;background:#BA2020;color:#fff;font-size:12px}
+.pai_box p.c span.s2{display:inline-block;margin:0 5px 0 0;padding:0 4px;border-radius:3px;background:#43D159;color:#fff;font-size:12px}
+.pai_box p.f{color:#999;font-size:14px}
+.pai_box p.f a{color:#999;font-size:14px}
+.pai_box div.pic{padding:0 0 0 60px}
+.pai_box div.pic img{display:block;margin:10px 0 0 0;width:auto;max-width:580px}
+.wangge{color:#ff6767}
+#comment{padding:40px 0}
+.comment-nav{display:none}
+.comment-post-text{margin:20px 0 0 0}
+#floatBox{position:absolute;top:-1px;left:-67px;padding:15px 0 0;border-top:1px solid #eeeeee}
+.comment-pai-img{float:left;border-radius:50%;background:#f2f2f2 url("http://static.meishichina.com/v6/img/loading-16-16.gif") no-repeat scroll center center}
+.comment-post{float:right}
+.comment-reply{width:562px}
+.comment-add{width:582px}
+.comment-post-text{margin:0}
+.comment-pai{clear:both;margin:20px 0 0}
+.pai_event{border:1px solid #eee;margin:20px 0 0 160px;font-size:14px;height:24px;line-height:24px;padding:5px 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:360px}
+.pai_event img{margin:0 10px 0 0;float:left;width:24px}
+.pai_zhen{background:#eee;margin:20px 0 0 160px;height:60px;width:382px}
+.pai_zhen a img{margin:0 10px 0 0;float:left;width:58px;margin:1px}
+.pai_zhen div{width:225px;float:left;padding:0 10px}
+.pai_zhen div a{display:block;font-size:14px;padding:6px 0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pai_zhen div span{color:#ff6767}
+.pai_zhen p a{display:block;float:right;width:60px;height:60px;background:#e5e5e5}
+.pai_zhen p a:hover{background:#e5e5e5}
+.pai_zhen p img{margin:15px;float:right;width:30px}
+.recipeArction{padding:15px 0}
+.recipeArction .collect_da{display:block;float:none;margin:auto;width:503px}
+.recipeArction .collect_da li{float:left;width:80px}
+.collect_da li a{display:block;overflow:hidden;text-align:center;text-overflow:ellipsis;white-space:nowrap;color:#999;font-size:11px}
+.collect_da li a{text-decoration:none;color:#666}
+.collect_da li a i{width:30px;height:30px;display:block;margin:2px auto;background:transparent url(http://static.meishichina.com/v6/img/zhen/i.png?v=2) no-repeat;background:rgba(0,0,0,0) url(http://static.meishichina.com/v6/img/zhen/ix2.png?v=2) no-repeat scroll 0 0/auto 30px}
+.collect_da li.fav a i{background-position:0 0}
+.collect_da li.fav a.on i,.collect_da li.fav a:hover i{background-position:-30px 0}
+.collect_da li a.J_s1 i{background-position:-60px 0}
+.collect_da li a.J_s2 i{background-position:-90px 0}
+.collect_da li a.J_s3 i{background-position:-120px 0}
+.collect_da li a.J_s4 i{background-position:-150px 0}
+.collect_da li a.J_col i{background-position:-240px 0}
+.collect_da li.lik a i{background-position:-210px 0}
+.collect_da li.lik a.on i,.collect_da li.lik a:hover i{background-position:-180px 0}
+#bdshare{display:none}
+.zhen_r_list li{padding:15px 0 0;clear:both}
+.zhen_r_list li .pic{float:left}
+.zhen_r_list li p{padding:0 0 0 70px}
+.zhen_r_list li p a{font-size:14px;line-height:1.2em}
+.zhen_r_list li p span{color:#999}
+.zhen_r_list li img.imgLoad{background:#f2f2f2 url(http://static.meishichina.com/v6/img/loading-16-16.gif) no-repeat scroll center center;display:block;height:60px;width:60px}
+.pai_tips{font-size:32px;padding:0 0 10px 0;border-bottom:1px solid #eee}
+.pai_tips a{text-decoration:none}
+
+#addtocollect{padding:20px}#addtocollect div.line{padding:5px 0}#addtocollect div.line span{color:#5b5b5b;font-size:12px}#addtocollect div.line span.gay{color:#ccc}#addtocollect div.line a{color:#6599ff;font-size:12px}#addtocollect select{max-width:200px;margin:0 5px 0 0;font-size:14px}#addtocollect textarea{border:1px solid #ccc;color:#ccc;height:90px;line-height:130%;padding:5px;vertical-align:sub;width:270px}#addtocollect textarea.color_5b{color:#5b5b5b}
