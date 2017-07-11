@@ -34,7 +34,7 @@ class CollectController extends Controller
     // 删除收藏
     public function delCollect($id)
     {
-        Collect::where('uid',Auth::user()->id) ->delete();
-        return "<script>alert('移除成功');self.location = document.referrer</script>";
+        Collect::where('rid',$id) ->delete();
+        return back();
     }
 }

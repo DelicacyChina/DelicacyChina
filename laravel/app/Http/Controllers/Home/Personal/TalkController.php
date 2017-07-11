@@ -46,7 +46,7 @@ class TalkController extends Controller
                 ]);
             }
         }
-        return '<script>alert("话题发布成功")</script>';
+        return '<script>alert("话题发布成功");window.location.href="/home/personal/talk/index"</script>';
     }
 
     //话题遍历

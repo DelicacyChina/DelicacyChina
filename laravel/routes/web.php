@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','Home\IndexController@index');
+Route::get('/','Home\IndexController@login');
 
 
 
@@ -121,7 +121,8 @@ Route::group(['prefix'=>'/home','namespace'=>'Home\\'],function(){
             Route::get('/editBlog/{bid}','BlogController@editBlog');
             //  修改
             Route::post('/edit','BlogController@edit');
-
+            //  删除
+	    Route::get('/blogdel/{bid}','BlogController@del');
             // 喜欢
             Route::get('/like','BlogController@like');
             // 不喜欢
@@ -162,7 +163,7 @@ Route::group(['prefix'=>'/home','namespace'=>'Home\\'],function(){
             // 菜单的收藏
             Route::get('/recipeCollect','CollectController@recipeCollect');
             // 删除收藏
-            Route::get('/delCollect/{id}','CollectedController@delCollect');
+            Route::get('/delCollect/{id}','CollectController@delCollect');
         });
 
         // 关注

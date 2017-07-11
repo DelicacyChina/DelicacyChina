@@ -55,7 +55,7 @@
         $('#loginbtn').click(function(){
 
             var flag = true;
-            var yzm = $('#name').val()
+            var yzm = $('#yzm').val()
             var u_username = $('#username').val()
             var password = $('#password').val()
             if(u_username== '')

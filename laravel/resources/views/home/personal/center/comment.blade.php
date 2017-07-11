@@ -81,9 +81,9 @@
     }  else {
         $('#icon_sex').addClass('woman')
     }
-
+    
     // 未关注 点击变关注
-    $('.subbtn ').on('click','#attr',function(){
+    $('.subbtn ').on('click','.attention',function(){
         var fid = "{{$user->id}}"
         $.ajax({
             url:'{{url("home/personal/center/friend/addFriend")}}',
@@ -91,7 +91,7 @@
             type:'get',
             success:function(data){
                 alert('关注成功');
-                $('#attr').attr('class','setattention');
+                $('.subbtn ').find('.attention').attr('class','setattention');
             }
         })
     })
@@ -103,7 +103,7 @@
             type:'get',
             success:function(data){
                 alert('取消成功');
-                $('#attr').attr('class','attention');
+                $('.subbtn ').find('.setattention').attr('class','attention');
             }
         })
     })

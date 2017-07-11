@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                             <div class='right'>
-                                <a href="">删除</a>
+                                <a href="{{url('home/personal/blog/blogdel/'.$blog->id)}}">删除</a>
                             </div>
                         </li>
                     @endforeach

@@ -99,6 +99,13 @@ class BlogController extends Controller
         return view('home.personal.blog.editBlog')->with('blog',$blog)->with('img',$img);
     }
 
+    // 删除日志
+    public function del($bid)
+   {
+	Blog::where('id',$bid)->delete();
+	return back();
+
+    }
     // 修改日志
     public function edit(Request $request)
     {

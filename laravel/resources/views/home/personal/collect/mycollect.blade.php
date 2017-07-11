@@ -44,7 +44,7 @@
                         </div>
                         <div class="right">
                             <a class="del" href="{{url('home/personal/recipe/recipeDetail/'.$c->rid)}}">查看详情</a>
-                            <a class="del" href="{{url('home/personal/recipe/delcollect/'.$c->rid)}}">移除</a>
+                            <a class="del" href="{{url('home/personal/collect/delCollect/'.$c->rid)}}">移除</a>
                         </div>
                     </li>
                     @endforeach
